@@ -1,3 +1,17 @@
+-----------------------------------------------------------------------------
+--                  $$\                     $$\
+--                  $$ |                    \__|
+--         $$$$$$\  $$ |$$\   $$\  $$$$$$\  $$\ $$$$$$$\   $$$$$$$\
+--        $$  __$$\ $$ |$$ |  $$ |$$  __$$\ $$ |$$  __$$\ $$  _____|
+--        $$ /  $$ |$$ |$$ |  $$ |$$ /  $$ |$$ |$$ |  $$ |\$$$$$$\
+--        $$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |$$ |$$ |  $$ | \____$$\
+--        $$$$$$$  |$$ |\$$$$$$  |\$$$$$$$ |$$ |$$ |  $$ |$$$$$$$  |
+--        $$  ____/ \__| \______/  \____$$ |\__|\__|  \__|\_______/
+--        $$ |                    $$\   $$ |
+--        $$ |                    \$$$$$$  |
+--        \__|                     \______/
+-----------------------------------------------------------------------------
+
 local fn = vim.fn
 
 -- Automatically install packer
@@ -60,8 +74,11 @@ return packer.startup(function(use)
   use "folke/which-key.nvim"
 
   -- Colorschemes
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "lunarvim/darkplus.nvim"
+  --use "ellisonleao/gruvbox.nvim"
+  --use "rebelot/kanagawa.nvim"
+  --use 'EdenEast/nightfox.nvim'
+  --use({"catppuccin/nvim", as = "catppuccin"})
+  use "projekt0n/github-nvim-theme"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
