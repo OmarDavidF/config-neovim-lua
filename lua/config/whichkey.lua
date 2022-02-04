@@ -121,6 +121,8 @@ local mappings = {
       "<cmd>lua require 'gitsigns'.undo_stage_hunk()<cr>",
       "Undo Stage Hunk",
     },
+    e = { "<cmd>GitBlameEnable<cr>", "Enables git messages"},
+    i = { "<cmd>GitBlameDisable<cr>", "disables git messages"},
     o = { "<cmd>Telescope git_status<cr>", "Open changed file" },
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
     c = { "<cmd>Telescope git_commits<cr>", "Checkout commit" },
