@@ -45,6 +45,10 @@ pero dejo enlaces a cada complemento para que se revisen los diferentes requisit
 │   └── packer_compiled.lua
 └── README.md         
 ```
+## Capturas de pantalla
+
+  ![imagen_uno](Screenshot_20220205_123619.png)
+
 
 ## Enlaces a plugins
 
