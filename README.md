@@ -1,10 +1,10 @@
-# Neovim preconfigurado
+# ⭐ Neovim preconfigurado
 
 Esta es una configuración de neovim hecha en lua. Hay que tener en cuenta que algunos de los plugins 
 tienen requisitos adicionales para que funcionen en sus equipos. Por el momento no voy a especificar esto, 
 pero dejo enlaces a cada complemento para que se revisen los diferentes requisitos:
 
-## Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 ├── init.lua                         / load/source configs 
@@ -45,6 +45,26 @@ pero dejo enlaces a cada complemento para que se revisen los diferentes requisit
 │   └── packer_compiled.lua
 └── README.md         
 ```
+## Mappings
+
+you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/config-neovim-lua/blob/main/lua/user/keymaps.lua) file and the key mapping in [whichkey.lua](https://github.com/OmarDavidF/config-neovim-lua/blob/main/lua/config/whichkey.lua)
+
+| Keys                | Functions                                                              |
+| --------------------|:---------------------------------------------------------------------- |
+| ```;```             | leader key                                                             |
+| ```<leader>M```     | show all mappings (it will show mapping in telescope)                  |
+| ```<C-p>```         | Find files from current file's project                                 |
+| ```<C-f>```         | show all files from current working directory                          |
+| ```\\```            | Launch Telescope without any argument                                  |
+| ```<Leader>q```     | close buffer                                                           |
+| ```<C-s>```         | save file                                                              |
+| ```<C-h>```         | scroll window horizontally (left)                                      |
+| ```<C-l>```         | scroll window horizontally (right)                                     |
+| ```//```            | clear Search Results                                                   |
+| ```<M-q>```         | (M=Alt) on[ly] close all other windows but leave all buffers open.     |
+| ```K```             | move selected line(s) up                                               |
+| ```J```             | move selected line(s) down                                             |
+
 ## Capturas de pantalla
 
   ![imagen_uno](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_123619.png)
