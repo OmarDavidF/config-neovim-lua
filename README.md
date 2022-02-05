@@ -13,9 +13,10 @@ obtain more information.
 ## 🖥️ project structure
 
 ```
-├── init.lua                         / load/source configs 
+├── init.lua                      / load/source configs
+├── LICENSE
 ├── lua
-│   ├── config                       / configuration of installed plugins
+│   ├── config                    / configuration of installed plugins
 │   │   ├── alpha.lua
 │   │   ├── autocommands.lua
 │   │   ├── autopairs.lua
@@ -33,12 +34,12 @@ obtain more information.
 │   │   ├── toggleterm.lua
 │   │   ├── treesitter.lua
 │   │   └── whichkey.lua
-│   ├── lsp                          / language service provider settings             
+│   ├── lsp                        / language service provider settings
 │   │   ├── handlers.lua
 │   │   ├── init.lua
 │   │   ├── lsp-installer.lua
 │   │   ├── null-ls.lua
-│   │   └── settings                 / json and lua server language configurations
+│   │   └── settings               / json and lua server language configurations
 │   │       ├── jsonls.lua
 │   │       └── sumneko_lua.lua
 │   ├── themes
@@ -49,7 +50,7 @@ obtain more information.
 │       └── plugins.lua
 ├── plugin
 │   └── packer_compiled.lua
-└── README.md         
+└── README.md
 ```
 ## 🔍 Mappings
 
@@ -58,18 +59,21 @@ you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/c
 | Keys                | Functions                                                              |
 | --------------------|:---------------------------------------------------------------------- |
 | ```;```             | leader key                                                             |
-| ```<leader>M```     | show all mappings (it will show mapping in telescope)                  |
+| ```<leader>```      | leaving the leader (space) key pressed for 2 seconds                   |
+|                     | will show you the whichkey menu                                        |
 | ```<C-p>```         | Find files from current file's project                                 |
 | ```<C-f>```         | show all files from current working directory                          |
 | ```\\```            | Launch Telescope without any argument                                  |
-| ```<Leader>q```     | close buffer                                                           |
-| ```<C-s>```         | save file                                                              |
+| ```<Leader>c```     | close buffer                                                           |
+| ```<leader>w```     | save file                                                              |
 | ```<C-h>```         | scroll window horizontally (left)                                      |
 | ```<C-l>```         | scroll window horizontally (right)                                     |
 | ```//```            | clear Search Results                                                   |
 | ```<M-q>```         | (M=Alt) on[ly] close all other windows but leave all buffers open.     |
-| ```K```             | move selected line(s) up                                               |
-| ```J```             | move selected line(s) down                                             |
+| ```k```             | move selected line(s) up                                               |
+| ```j```             | move selected line(s) down                                             |
+| ```h```             | move selected line(s) left                                             |
+| ```l```             | move selected line(s) right                                            |
 
 ## 📸 Screenshots
 
