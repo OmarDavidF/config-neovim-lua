@@ -1,10 +1,16 @@
-# 🎁 Neovim preconfigurado
+# 🎁 Neovim preconfigured
 
-Esta es una configuración de neovim hecha en lua. Hay que tener en cuenta que algunos de los plugins 
-tienen requisitos adicionales para que funcionen en sus equipos. Por el momento no voy a especificar esto, 
-pero dejo enlaces a cada complemento para que se revisen los diferentes requisitos:
+This is a neovim setup made in lua. Keep in mind that some of the plugins
+have additional requirements to make them work on your computers, towards the bottom are the links where you can
+obtain more information.
 
-## 🖥️ Estructura del proyecto
+## 📕 installation
+
+1. Click on the code button, select one of the links and clone the repository.
+2. when you open neovim packer it installs automatically. 
+3. the plugins will be installed automatically.
+
+## 🖥️ project structure
 
 ```
 ├── init.lua                         / load/source configs 
@@ -47,7 +53,7 @@ pero dejo enlaces a cada complemento para que se revisen los diferentes requisit
 ```
 ## 🔍 Mappings
 
-you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/config-neovim-lua/blob/main/lua/user/keymaps.lua) file and the key mapping in [whichkey.lua](https://github.com/OmarDavidF/config-neovim-lua/blob/main/lua/config/whichkey.lua)
+you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/config-neovim-lua/blob/main/lua/user/keymaps.lua) file and the key mapping in [whichkey.lua](https://github.com/OmarDavidF/config-neovim-lua/blob/main/lua/config/whichkey.lua) file.
 
 | Keys                | Functions                                                              |
 | --------------------|:---------------------------------------------------------------------- |
@@ -65,7 +71,7 @@ you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/c
 | ```K```             | move selected line(s) up                                               |
 | ```J```             | move selected line(s) down                                             |
 
-## 📸 Capturas de pantalla
+## 📸 Screenshots
 
   ![imagen_uno](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_123619.png)
 
@@ -75,7 +81,9 @@ you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/c
 
   ![imagen_cuatro](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_124337.png)
 
-## 🔗 Enlaces a plugins
+## 🔗 Plugin Links
+
+here I leave the links to each of the plugins so you can review their specifications:
 
 - [wbthomason/packer.nvim:](https://github.com/wbthomason/packer.nvim)
 - [nvim-lua/popup.nvim:](https://github.com/nvim-lua/popup.nvim)
