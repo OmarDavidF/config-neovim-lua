@@ -4,6 +4,48 @@ Esta es una configuración de neovim hecha en lua. Hay que tener en cuenta que a
 tienen requisitos adicionales para que funcionen en sus equipos. Por el momento no voy a especificar esto, 
 pero dejo enlaces a cada complemento para que se revisen los diferentes requisitos:
 
+## Estructura del proyecto
+
+```
+├── init.lua                         / load/source configs 
+├── lua
+│   ├── config                       / configuration of installed plugins
+│   │   ├── alpha.lua
+│   │   ├── autocommands.lua
+│   │   ├── autopairs.lua
+│   │   ├── bufferline.lua
+│   │   ├── cmp.lua
+│   │   ├── colorizer.lua
+│   │   ├── comment.lua
+│   │   ├── gitsigns.lua
+│   │   ├── impatient.lua
+│   │   ├── indentline.lua
+│   │   ├── lualine.lua
+│   │   ├── nvim-tree.lua
+│   │   ├── project.lua
+│   │   ├── telescope.lua
+│   │   ├── toggleterm.lua
+│   │   ├── treesitter.lua
+│   │   └── whichkey.lua
+│   ├── lsp                          / language service provider settings             
+│   │   ├── handlers.lua
+│   │   ├── init.lua
+│   │   ├── lsp-installer.lua
+│   │   ├── null-ls.lua
+│   │   └── settings                 / json and lua server language configurations
+│   │       ├── jsonls.lua
+│   │       └── sumneko_lua.lua
+│   ├── themes
+│   │   └── colorscheme.lua
+│   └── user
+│       ├── keymaps.lua
+│       ├── options.lua
+│       └── plugins.lua
+├── plugin
+│   └── packer_compiled.lua
+└── README.md         
+```
+
 ## Enlaces a plugins
 
 - [wbthomason/packer.nvim:](https://github.com/wbthomason/packer.nvim)
