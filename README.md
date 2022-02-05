@@ -47,8 +47,10 @@ pero dejo enlaces a cada complemento para que se revisen los diferentes requisit
 ```
 ## Capturas de pantalla
 
-  ![imagen_uno](Screenshot_20220205_123619.png)
-
+  ![imagen_uno](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_123619.png)
+  ![imagen_dos](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_123931.png)
+  ![imagen_tres]()
+  ![imagen_cuatro]()
 
 ## Enlaces a plugins
 
