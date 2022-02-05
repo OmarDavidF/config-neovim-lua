@@ -72,6 +72,7 @@ return packer.startup(function(use)
   use "goolord/alpha-nvim"
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
+  use 'norcalli/nvim-colorizer.lua'
   use {
     'phaazon/hop.nvim',
     branch = 'v1', -- optional but strongly recommended
@@ -79,6 +80,7 @@ return packer.startup(function(use)
       require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' } -- you can configure Hop the way you like here; see :h hop-config
     end
   }
+
   -- Colorschemes
   --use "ellisonleao/gruvbox.nvim"
   --use "rebelot/kanagawa.nvim"
