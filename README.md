@@ -58,18 +58,17 @@ you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/c
 
 | Keys                | Functions                                                              |
 | --------------------|:---------------------------------------------------------------------- |
-| ```;```             | leader key                                                             |
-| ```<leader>```      | leaving the leader (space) key pressed for 2 seconds                   |
-|                     | will show you the whichkey menu                                        |
-| ```<C-p>```         | Find files from current file's project                                 |
-| ```<C-f>```         | show all files from current working directory                          |
-| ```\\```            | Launch Telescope without any argument                                  |
+| ``` space```        | leader key                                                             |
+| ```<leader>```      | when pressing wait two seconds. Show whichkey menu                     |
+| ```<leader>e```     | open nvim-tree file browser                                            |
+| ```<leader>f```     | open the telescope file browser                                        |
+| ```<leader>tf```    | open a floating terminal                                               |
 | ```<Leader>c```     | close buffer                                                           |
 | ```<leader>w```     | save file                                                              |
-| ```<C-h>```         | scroll window horizontally (left)                                      |
-| ```<C-l>```         | scroll window horizontally (right)                                     |
-| ```//```            | clear Search Results                                                   |
-| ```<M-q>```         | (M=Alt) on[ly] close all other windows but leave all buffers open.     |
+| ```<leader>a```     | return to alpha menu                                                   |
+| ```<leader>p```     | when pressing wait two seconds. Show packer options                    |
+| ```<leader>s```     | when pressing wait two seconds. Show a search menu                     |
+| ```<leader>q```     | quit                                                                   |
 | ```k```             | move selected line(s) up                                               |
 | ```j```             | move selected line(s) down                                             |
 | ```h```             | move selected line(s) left                                             |
