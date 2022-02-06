@@ -119,41 +119,41 @@ here I leave the links to each of the plugins so you can review their specificat
 
 ### cmp plugins
 
-- [hrsh7th/nvim-cmp:]()
-- [hrsh7th/cmp-buffer:]()
-- [hrsh7th/cmp-path:]()
-- [hrsh7th/cmp-cmdline:]()
-- [saadparwaiz1/cmp_luasnip:]()
-- [hrsh7th/cmp-nvim-lsp:]()
+- [hrsh7th/nvim-cmp:](https://github.com/hrsh7th/nvim-cmp)
+- [hrsh7th/cmp-buffer:](https://github.com/hrsh7th/cmp-buffer)
+- [hrsh7th/cmp-path:](https://github.com/hrsh7th/cmp-path)
+- [hrsh7th/cmp-cmdline:](https://github.com/hrsh7th/cmp-cmdline)
+- [saadparwaiz1/cmp_luasnip:](https://github.com/saadparwaiz1/cmp_luasnip)
+- [hrsh7th/cmp-nvim-lsp:](https://github.com/hrsh7th/cmp-nvim-lsp)
 
 ### snippets
 
-- [L3MON4D3/LuaSnip:]()
-- [rafamadriz/friendly-snippets:]()
+- [L3MON4D3/LuaSnip:](https://github.com/L3MON4D3/LuaSnip)
+- [rafamadriz/friendly-snippets:](https://github.com/rafamadriz/friendly-snippets)
 
 ### LSP
 
-- [neovim/nvim-lspconfig:]()
-- [williamboman/nvim-lsp-installer:]()
-- [tamago324/nlsp-settings.nvim:]()
-- [jose-elias-alvarez/null-ls.nvim:]()
+- [neovim/nvim-lspconfig:](https://github.com/neovim/nvim-lspconfig)
+- [williamboman/nvim-lsp-installer:](https://github.com/williamboman/nvim-lsp-installer)
+- [tamago324/nlsp-settings.nvim:](https://github.com/tamago324/nlsp-settings.nvim)
+- [jose-elias-alvarez/null-ls.nvim:](https://github.com/jose-elias-alvarez/null-ls.nvim)
 
 ### Telescope
 
-- [nvim-telescope/telescope.nvim:]()
-- [nvim-telescope/telescope-fzf-native.nvim:]()
-- [nvim-telescope/telescope-media-files.nvim:]()
+- [nvim-telescope/telescope.nvim:](https://github.com/nvim-telescope/telescope.nvim)
+- [nvim-telescope/telescope-fzf-native.nvim:](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
+- [nvim-telescope/telescope-media-files.nvim:](https://github.com/nvim-telescope/telescope-media-files.nvim)
 
 ### Treesitter
 
-- [nvim-treesitter/nvim-treesitter:]()
-- [JoosepAlviste/nvim-ts-context-commentstring:]()
+- [nvim-treesitter/nvim-treesitter:](https://github.com/nvim-treesitter/nvim-treesitter)
+- [JoosepAlviste/nvim-ts-context-commentstring:](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
 
 ### Git
 
-- [lewis6991/gitsigns.nvim:]()
-- [f-person/git-blame.nvim:]()
+- [lewis6991/gitsigns.nvim:](https://github.com/lewis6991/gitsigns.nvim)
+- [f-person/git-blame.nvim:](https://github.com/f-person/git-blame.nvim)
 
 ### Markdown
 
-- [ellisonleao/glow.nvim:]()
+- [ellisonleao/glow.nvim:](https://github.com/ellisonleao/glow.nvim)
