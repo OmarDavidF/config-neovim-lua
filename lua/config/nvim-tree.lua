@@ -1,5 +1,7 @@
 -- following options are the default
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
+
+vim.g.nvim_tree_git_hl = 1
 vim.g.nvim_tree_icons = {
   default = "",
   symlink = "",
@@ -13,11 +15,14 @@ vim.g.nvim_tree_icons = {
     ignored = "◌",
   },
   folder = {
+    arrow_open = "",
+    arrow_closed = "",
     default = "",
     open = "",
     empty = "",
     empty_open = "",
     symlink = "",
+    symlink_open = ""
   },
 }
 
