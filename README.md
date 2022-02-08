@@ -1,5 +1,7 @@
 # 🎁 Neovim preconfigured
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 This is a neovim setup made in lua. Keep in mind that some of the plugins
 have additional requirements to make them work on your computers, towards the bottom are the links where you can
 obtain more information.
