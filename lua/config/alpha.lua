@@ -25,12 +25,12 @@ dashboard.section.buttons.val = {
 }
 
 local function footer()
--- NOTE: requires the fortune-mod package to work
-	-- local handle = io.popen("fortune")
-	-- local fortune = handle:read("*a")
-	-- handle:close()
-	-- return fortune
-	return "Omar David F"
+  -- NOTE: requires the fortune-mod package to work
+  local handle = io.popen("fortune")
+	local fortune = handle:read("*a")
+	handle:close()
+	return fortune
+	-- return "Omar David F"
 end
 
 dashboard.section.footer.val = footer()
