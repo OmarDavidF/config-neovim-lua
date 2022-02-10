@@ -102,7 +102,7 @@ cmp.setup {
       --vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
       vim_item.menu = ({
         nvim_lsp = "[LSP]",
-        cmp_tabnine = "[tabnine]",
+        cmp_tabnine = "[TN]",
         luasnip = "[Snippet]",
         buffer = "[Buffer]",
         path = "[Path]",
@@ -110,6 +110,7 @@ cmp.setup {
       return vim_item
     end,
   },
+
   sources = {
     { name = "nvim_lsp" },
     { name = 'cmp_tabnine' },
@@ -117,6 +118,7 @@ cmp.setup {
     { name = "buffer" },
     { name = "path" },
   },
+
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,
     select = false,
