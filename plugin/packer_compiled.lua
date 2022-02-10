@@ -129,11 +129,6 @@ _G.packer_plugins = {
     path = "/home/omarf/.local/share/nvim/site/pack/packer/start/git-blame.nvim",
     url = "https://github.com/f-person/git-blame.nvim"
   },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/home/omarf/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
-    url = "https://github.com/projekt0n/github-nvim-theme"
-  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/omarf/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -159,6 +154,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/omarf/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/omarf/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
