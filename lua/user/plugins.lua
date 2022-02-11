@@ -87,10 +87,10 @@ return packer.startup(function(use)
   }
 
   -- Colorschemes
-  --use "ellisonleao/gruvbox.nvim"
-  use "rebelot/kanagawa.nvim"
+  use "ellisonleao/gruvbox.nvim"
+  -- use "rebelot/kanagawa.nvim"
   -- use 'EdenEast/nightfox.nvim'
-  --use({"catppuccin/nvim", as = "catppuccin"})
+  -- use({"catppuccin/nvim", as = "catppuccin"})
   -- use "projekt0n/github-nvim-theme"
 
   -- cmp plugins
