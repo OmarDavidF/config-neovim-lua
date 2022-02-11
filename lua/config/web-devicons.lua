@@ -1,34 +1,36 @@
 
 local colors = {
 	white = "#abb2bf",
-	red = "#d47d85",
+	red = "#9b111e",
 	baby_pink = "#DE8C92",
 	pink = "#ff75a0",
-	vibrant_green = "#7eca9c",
+	vibrant_green = "#41b883",
 	blue = "#61afef",
-	yellow = "#e7c787",
+	yellow = "#f0db4f",
 	sun = "#EBCB8B",
 	dark_purple = "#c882e7",
-	teal = "#519ABA",
-	orange = "#fca2aa",
+	teal = "#264de4",
+	orange = "#ec6231",
 	cyan = "#a3b8ef",
+  docker = "#0db7ed",
+  debian = "#d70a53"
 }
 
 require("nvim-web-devicons").setup({
 	override = {
 		html = {
 			icon = " ",
-			color = colors.baby_pink,
+			color = colors.orange,
 			name = "html",
 		},
 		css = {
 			icon = " ",
-			color = colors.blue,
+			color = colors.teal,
 			name = "css",
 		},
 		js = {
 			icon = " ",
-			color = colors.sun,
+			color = colors.yellow,
 			name = "js",
 		},
 		ts = {
@@ -58,7 +60,7 @@ require("nvim-web-devicons").setup({
 		},
 		mp4 = {
 			icon = " ",
-			color = colors.white,
+			color = colors.red,
 			name = "mp4",
 		},
 		out = {
@@ -68,12 +70,12 @@ require("nvim-web-devicons").setup({
     },
 		Dockerfile = {
 			icon = " ",
-			color = colors.cyan,
+			color = colors.docker,
 			name = "Dockerfile",
 		},
 		rb = {
 			icon = " ",
-			color = colors.pink,
+			color = colors.red,
 			name = "rb",
 		},
 		vue = {
@@ -83,7 +85,7 @@ require("nvim-web-devicons").setup({
 		},
 		py = {
 			icon = " ",
-			color = colors.cyan,
+			color = colors.yellow,
 			name = "py",
 			},
 		toml = {
@@ -108,7 +110,7 @@ require("nvim-web-devicons").setup({
 		},
 		deb = {
 			icon = " ",
-			color = colors.cyan,
+			color = colors.debian,
 			name = "deb",
 		},
 		rpm = {
