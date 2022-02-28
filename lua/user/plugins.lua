@@ -87,7 +87,10 @@ return packer.startup(function(use)
   }
 
   -- Colorschemes
-  use "ellisonleao/gruvbox.nvim"
+  -- use "ellisonleao/gruvbox.nvim"
+  use 'folke/tokyonight.nvim'
+  -- use 'Mofiqul/dracula.nvim'
+  -- use 'olimorris/onedarkpro.nvim'
   -- use "rebelot/kanagawa.nvim"
   -- use 'EdenEast/nightfox.nvim'
   -- use({"catppuccin/nvim", as = "catppuccin"})
