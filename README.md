@@ -15,15 +15,17 @@ obtain more information.
 ## 🖥️ project structure
 
 ```
-├── init.lua                      / load/source configs
+
+├── init.lua                          / load/source configs
 ├── LICENSE
 ├── lua
-│   ├── config                    / configuration of installed plugins
+│   ├── config                        / configuration of installed plugins
 │   │   ├── alpha.lua
 │   │   ├── autocommands.lua
 │   │   ├── autopairs.lua
 │   │   ├── bufferline.lua
 │   │   ├── cmp.lua
+│   │   ├── cmp-tabnine.lua
 │   │   ├── colorizer.lua
 │   │   ├── comment.lua
 │   │   ├── gitsigns.lua
@@ -35,13 +37,14 @@ obtain more information.
 │   │   ├── telescope.lua
 │   │   ├── toggleterm.lua
 │   │   ├── treesitter.lua
+│   │   ├── web-devicons.lua
 │   │   └── whichkey.lua
-│   ├── lsp                        / language service provider settings
+│   ├── lsp                           / language service provider settings
 │   │   ├── handlers.lua
 │   │   ├── init.lua
 │   │   ├── lsp-installer.lua
 │   │   ├── null-ls.lua
-│   │   └── settings               / json and lua server language configurations
+│   │   └── settings                 / json and lua server language configurations
 │   │       ├── jsonls.lua
 │   │       └── sumneko_lua.lua
 │   ├── themes
@@ -53,6 +56,7 @@ obtain more information.
 ├── plugin
 │   └── packer_compiled.lua
 └── README.md
+
 ```
 ## 🔍 Mappings
 
