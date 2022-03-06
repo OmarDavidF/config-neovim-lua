@@ -65,19 +65,21 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
-  use "kyazdani42/nvim-web-devicons"
-  use "kyazdani42/nvim-tree.lua"
-  use "akinsho/bufferline.nvim"
+  use "folke/todo-comments.nvim" -- comment highlighting
+  use "kyazdani42/nvim-web-devicons" -- adds icons to different file types
+  use "kyazdani42/nvim-tree.lua" -- File Explorer For Neovim
+  use "akinsho/bufferline.nvim" -- snazzy buffer line for Neovim built using Lua
   use "moll/vim-bbye"
-  use "nvim-lualine/lualine.nvim"
+  use "nvim-lualine/lualine.nvim" -- blazing fast and easy to configure Neovim statusline
   use "akinsho/toggleterm.nvim"
   use "ahmedkhalf/project.nvim"
   use "lewis6991/impatient.nvim"
   use "lukas-reineke/indent-blankline.nvim"
-  use "goolord/alpha-nvim"
+  use "goolord/alpha-nvim" -- customizable home screen module
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
-  use 'norcalli/nvim-colorizer.lua'
+  use 'norcalli/nvim-colorizer.lua' -- high-performance color highlighter for Neovim
+  use "rcarriga/nvim-notify" -- configurable, notification manager for NeoVim
   use {
     'phaazon/hop.nvim',
     branch = 'v1', -- optional but strongly recommended
@@ -125,8 +127,8 @@ return packer.startup(function(use)
   use "JoosepAlviste/nvim-ts-context-commentstring"
 
   -- Git
-  use "lewis6991/gitsigns.nvim"
-  use "f-person/git-blame.nvim"
+  use "lewis6991/gitsigns.nvim" -- Super fast git decorations
+  use "f-person/git-blame.nvim" -- git blame plugin for Neovim
 
   -- Markdown
   use "ellisonleao/glow.nvim"
