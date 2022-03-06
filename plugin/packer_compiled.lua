@@ -245,6 +245,11 @@ _G.packer_plugins = {
     path = "/home/omarf/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
+  sniprun = {
+    loaded = true,
+    path = "/home/omarf/.local/share/nvim/site/pack/packer/start/sniprun",
+    url = "https://github.com/michaelb/sniprun"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/omarf/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

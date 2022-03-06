@@ -81,12 +81,13 @@ return packer.startup(function(use)
   use 'norcalli/nvim-colorizer.lua' -- high-performance color highlighter for Neovim
   use "rcarriga/nvim-notify" -- configurable, notification manager for NeoVim
   use {
-    'phaazon/hop.nvim',
+    'phaazon/hop.nvim', -- allows you to jump to any part of a document
     branch = 'v1', -- optional but strongly recommended
     config = function()
       require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' } -- you can configure Hop the way you like here; see :h hop-config
     end
   }
+
 
   -- Colorschemes
   -- use "ellisonleao/gruvbox.nvim"
@@ -129,6 +130,9 @@ return packer.startup(function(use)
   -- Git
   use "lewis6991/gitsigns.nvim" -- Super fast git decorations
   use "f-person/git-blame.nvim" -- git blame plugin for Neovim
+
+  -- Code runner
+  use {"michaelb/sniprun", run = "bash ./install.sh"} -- code runner plugin for neovim
 
   -- Markdown
   use "ellisonleao/glow.nvim"
