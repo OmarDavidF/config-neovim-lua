@@ -4,11 +4,13 @@ if not status_ok then
 end
 
 local actions = require "telescope.actions"
+local action_layout = require "telescope.actions.layout"
 
 telescope.setup {
   defaults = {
 
     prompt_prefix = "  ",
+    entry_prefix = "  ",
     selection_caret = " ",
     path_display = { "smart" },
     color_devicons = true,
@@ -33,6 +35,8 @@ telescope.setup {
 
         ["<C-c>"] = actions.close,
 
+         ["<M-p>"] = action_layout.toggle_preview,
+
         ["<Down>"] = actions.move_selection_next,
         ["<Up>"] = actions.move_selection_previous,
 
@@ -56,6 +60,7 @@ telescope.setup {
       },
 
       n = {
+        ["<M-p>"] = action_layout.toggle_preview,
         ["<esc>"] = actions.close,
         ["<CR>"] = actions.select_default,
         ["<C-x>"] = actions.select_horizontal,

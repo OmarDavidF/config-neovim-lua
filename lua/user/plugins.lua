@@ -63,16 +63,17 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "BurntSushi/ripgrep" -- ripgrep is a line-oriented search tool that recursively searches the current directory
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use "folke/todo-comments.nvim" -- comment highlighting
   use "kyazdani42/nvim-web-devicons" -- adds icons to different file types
   use "kyazdani42/nvim-tree.lua" -- File Explorer For Neovim
   use "akinsho/bufferline.nvim" -- snazzy buffer line for Neovim built using Lua
-  use "moll/vim-bbye"
+  use "moll/vim-bbye" -- Bbye allows you to do delete buffers
   use "nvim-lualine/lualine.nvim" -- blazing fast and easy to configure Neovim statusline
-  use "akinsho/toggleterm.nvim"
-  use "ahmedkhalf/project.nvim"
+  use "akinsho/toggleterm.nvim" -- persist and toggle multiple terminals during an editing session
+  use "ahmedkhalf/project.nvim" -- all in one neovim plugin written in lua that provides superior project management
   use "lewis6991/impatient.nvim"
   use "lukas-reineke/indent-blankline.nvim"
   use "goolord/alpha-nvim" -- customizable home screen module
@@ -82,10 +83,10 @@ return packer.startup(function(use)
   use "rcarriga/nvim-notify" -- configurable, notification manager for NeoVim
   use "anuvyklack/pretty-fold.nvim" -- Folded region and preview
   use {
-    'phaazon/hop.nvim', -- allows you to jump to any part of a document
-    branch = 'v1', -- optional but strongly recommended
+    "phaazon/hop.nvim", -- allows you to jump to any part of a document
+    branch = "v1", -- optional but strongly recommended
     config = function()
-      require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' } -- you can configure Hop the way you like here; see :h hop-config
+      require"hop".setup {keys = "etovxqpdygfblzhckisuran"} -- you can configure Hop the way you like here; see :h hop-config
     end
   }
 
@@ -120,9 +121,9 @@ return packer.startup(function(use)
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
 
   -- Telescope
-  use "nvim-telescope/telescope.nvim"
-  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
-  use "nvim-telescope/telescope-media-files.nvim"
+  use "nvim-telescope/telescope.nvim" -- highly extendable fuzzy finder over lists
+  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' } -- port of fzf
+  use "nvim-telescope/telescope-media-files.nvim" -- Preview images, pdf, epub, video, and fonts from Neovim using Telescope
 
   -- Treesitter
   use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate",}

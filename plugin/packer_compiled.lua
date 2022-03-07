@@ -250,6 +250,11 @@ _G.packer_plugins = {
     path = "/home/omarf/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
+  ripgrep = {
+    loaded = true,
+    path = "/home/omarf/.local/share/nvim/site/pack/packer/start/ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
+  },
   sniprun = {
     loaded = true,
     path = "/home/omarf/.local/share/nvim/site/pack/packer/start/sniprun",
