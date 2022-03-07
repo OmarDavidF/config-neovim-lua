@@ -77,9 +77,10 @@ return packer.startup(function(use)
   use "lukas-reineke/indent-blankline.nvim"
   use "goolord/alpha-nvim" -- customizable home screen module
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
-  use "folke/which-key.nvim"
+  use "folke/which-key.nvim" -- displays a popup with possible key bindings of the command you started typing
   use 'norcalli/nvim-colorizer.lua' -- high-performance color highlighter for Neovim
   use "rcarriga/nvim-notify" -- configurable, notification manager for NeoVim
+  use "anuvyklack/pretty-fold.nvim" -- Folded region and preview
   use {
     'phaazon/hop.nvim', -- allows you to jump to any part of a document
     branch = 'v1', -- optional but strongly recommended

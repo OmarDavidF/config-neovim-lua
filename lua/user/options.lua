@@ -56,7 +56,8 @@ for k, v in pairs(options) do
 end
 
 local mapper = vim.api.nvim_set_keymap
-mapper('v', 'f', '<Plug>SnipRun', {silent = true})
+mapper("v", "f", "<Plug>SnipRun", {silent = true}) -- map code runner
+mapper("v", "t", "<cmd>'<,'>fold<cr>", {silent = true}) -- map pretty fold
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
