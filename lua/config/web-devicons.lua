@@ -1,4 +1,3 @@
-
 local colors = {
 	white = "#abb2bf",
 	red = "#9b111e",
@@ -12,8 +11,8 @@ local colors = {
 	teal = "#264de4",
 	orange = "#ec6231",
 	cyan = "#a3b8ef",
-  docker = "#0db7ed",
-  debian = "#d70a53"
+	docker = "#0db7ed",
+	debian = "#d70a53",
 }
 
 require("nvim-web-devicons").setup({
@@ -67,7 +66,7 @@ require("nvim-web-devicons").setup({
 			icon = " ",
 			color = colors.white,
 			name = "out",
-    },
+		},
 		Dockerfile = {
 			icon = " ",
 			color = colors.docker,
@@ -87,7 +86,7 @@ require("nvim-web-devicons").setup({
 			icon = " ",
 			color = colors.yellow,
 			name = "py",
-			},
+		},
 		toml = {
 			icon = " ",
 			color = colors.blue,
@@ -97,7 +96,7 @@ require("nvim-web-devicons").setup({
 			icon = " ",
 			color = colors.red,
 			name = "lock",
-    },
+		},
 		zip = {
 			icon = " ",
 			color = colors.sun,
@@ -117,7 +116,7 @@ require("nvim-web-devicons").setup({
 			icon = " ",
 			color = colors.orange,
 			name = "rpm",
-    },
+		},
 		lua = {
 			icon = " ",
 			color = colors.blue,
