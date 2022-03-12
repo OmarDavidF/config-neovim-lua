@@ -8,6 +8,7 @@
 --              $$ |$$ |  $$ |$$ |  \$$$$  |$$\ $$ |\$$$$$$  |\$$$$$$$ |
 --              \__|\__|  \__|\__|   \____/ \__|\__| \______/  \_______|
 --------------------------------------------------------------------------------
+require("config.impatient")
 require("user.options")
 require("user.keymaps")
 require("user.plugins")
@@ -29,7 +30,6 @@ require("config.bufferline")
 require("config.lualine")
 require("config.toggleterm")
 require("config.project")
-require("config.impatient")
 require("config.indentline")
 require("config.colorizer")
 require("config.alpha")

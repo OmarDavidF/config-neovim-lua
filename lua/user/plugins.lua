@@ -72,7 +72,6 @@ return packer.startup(function(use)
 	use("nvim-lualine/lualine.nvim") -- blazing fast and easy to configure Neovim statusline
 	use("akinsho/toggleterm.nvim") -- persist and toggle multiple terminals during an editing session
 	use("ahmedkhalf/project.nvim") -- all in one neovim plugin written in lua that provides superior project management
-	use("lewis6991/impatient.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
 	use("goolord/alpha-nvim") -- customizable home screen module
 	use("antoinemadec/FixCursorHold.nvim") -- This is needed to fix lsp doc highlight
@@ -97,6 +96,9 @@ return packer.startup(function(use)
 	-- use 'EdenEast/nightfox.nvim'
 	-- use({"catppuccin/nvim", as = "catppuccin"})
 	-- use "projekt0n/github-nvim-theme"
+
+	-- optimization
+	use("lewis6991/impatient.nvim") -- Speed up loading Lua modules in Neovim to improve startup time
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
@@ -124,10 +126,9 @@ return packer.startup(function(use)
 
 	-- Treesitter
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
-	use("p00f/nvim-ts-rainbow")
+	use("p00f/nvim-ts-rainbow") -- Rainbow parentheses for neovim using tree-sitter
 	use("numToStr/Comment.nvim") -- Easily comment stuff
 	use("folke/todo-comments.nvim") -- comment highlighting
-	-- use("JoosepAlviste/nvim-ts-context-commentstring")
 
 	-- Git
 	use("lewis6991/gitsigns.nvim") -- Super fast git decorations
@@ -136,7 +137,7 @@ return packer.startup(function(use)
 	use({ "michaelb/sniprun", run = "bash ./install.sh" }) -- code runner plugin for neovim
 
 	-- Markdown
-	use("ellisonleao/glow.nvim")
+	use("ellisonleao/glow.nvim") -- A glow preview directly in your neovim buffer
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
