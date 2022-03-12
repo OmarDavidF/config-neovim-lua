@@ -76,6 +76,7 @@ local opts = {
 	silent = true, -- use `silent` when creating keymaps
 	noremap = true, -- use `noremap` when creating keymaps
 	nowait = true, -- use `nowait` when creating keymaps
+	auto = true,
 }
 
 local mappings = {

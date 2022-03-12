@@ -65,8 +65,6 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used ny lots of plugins
 	use("BurntSushi/ripgrep") -- ripgrep is a line-oriented search tool that recursively searches the current directory
 	use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
-	use("numToStr/Comment.nvim") -- Easily comment stuff
-	use("folke/todo-comments.nvim") -- comment highlighting
 	use("kyazdani42/nvim-web-devicons") -- adds icons to different file types
 	use("kyazdani42/nvim-tree.lua") -- File Explorer For Neovim
 	use("akinsho/bufferline.nvim") -- snazzy buffer line for Neovim built using Lua
@@ -127,7 +125,9 @@ return packer.startup(function(use)
 	-- Treesitter
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 	use("p00f/nvim-ts-rainbow")
-	use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("numToStr/Comment.nvim") -- Easily comment stuff
+	use("folke/todo-comments.nvim") -- comment highlighting
+	-- use("JoosepAlviste/nvim-ts-context-commentstring")
 
 	-- Git
 	use("lewis6991/gitsigns.nvim") -- Super fast git decorations
