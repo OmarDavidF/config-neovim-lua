@@ -18,11 +18,23 @@ obtain more information.
 
 Make sure to remove or move your current `nvim` directory
 
-**IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly). 
+- [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+- **IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly). 
 ```
 git clone https://github.com/OmarDavidF/config-neovim-lua.git ~/.config/nvim
 ```
-- [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+- for debian-based linux distributions install path
+```
+sudo apt install xsel
+```
+- Neovim python support
+```
+pip install pynvim
+```
+- Neovim node support
+```
+npm i -g neovim
+```
 
 ## 🖥️ project structure
 
