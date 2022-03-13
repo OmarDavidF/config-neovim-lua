@@ -23,7 +23,7 @@ Make sure to remove or move your current `nvim` directory
 ```
 git clone https://github.com/OmarDavidF/config-neovim-lua.git ~/.config/nvim
 ```
-- for debian-based linux distributions install path
+- for debian-based linux distributions install 
 ```
 sudo apt install xsel
 ```
