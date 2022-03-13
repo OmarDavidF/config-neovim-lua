@@ -8,12 +8,6 @@ This is a neovim setup made in lua. Keep in mind that some of the plugins
 have additional requirements to make them work on your computers, towards the bottom are the links where you can
 obtain more information.
 
-## 📕 installation
-
-1. Copy the link that is found at the bottom.
-2. Run nvim init.lua and packer and plugins will be installed automatically.
-3. exit and re-enter for the changes to be taken and the installation of the treesitter modules will start,
-
 ## Requirements
 
 Make sure to remove or move your current `nvim` directory
@@ -35,6 +29,11 @@ pip install pynvim
 ```
 npm i -g neovim
 ```
+## 📕 installation
+
+1. Clone the repository and follow the requirements.
+2. Run nvim init.lua and packer and plugins will be installed automatically.
+3. exit and re-enter for the changes to be taken and the installation of the treesitter modules will start,
 
 ## 🖥️ project structure
 
