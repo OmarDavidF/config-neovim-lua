@@ -78,13 +78,7 @@ return packer.startup(function(use)
 	use("folke/which-key.nvim") -- displays a popup with possible key bindings of the command you started typing
 	use("norcalli/nvim-colorizer.lua") -- high-performance color highlighter for Neovim
 	use("rcarriga/nvim-notify") -- configurable, notification manager for NeoVim
-	use({
-		"phaazon/hop.nvim", -- allows you to jump to any part of a document
-		branch = "v1", -- optional but strongly recommended
-		config = function()
-			require("hop").setup({ keys = "etovxqpdygfblzhckisuran" }) -- you can configure Hop the way you like here; see :h hop-config
-		end,
-	})
+	use({ "phaazon/hop.nvim", branch = "v1" }) -- allows you to jump to any part of a document
 
 	-- Colorschemes
 	-- use "ellisonleao/gruvbox.nvim"
