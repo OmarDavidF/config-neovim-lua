@@ -8,9 +8,9 @@ obtain more information.
 
 ## 📕 installation
 
-1. Click on the code button, select one of the links and clone the repository.
-2. when you open neovim packer it installs automatically. 
-3. the plugins will be installed automatically.
+1. Copy the link that is found at the bottom.
+2. Run nvim init.lua and packer and plugins will be installed automatically.
+3. exit and re-enter for the changes to be taken and the installation of the treesitter modules will start,
 
 ## Try out this config
 
@@ -19,16 +19,16 @@ Make sure to remove or move your current `nvim` directory
 **IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly). 
 ```
 git clone https://github.com/OmarDavidF/config-neovim-lua.git ~/.config/nvim
-
 ```
 
 ## 🖥️ project structure
 
 ```
-├── init.lua                          / load/source configs
+
+├── init.lua                        / load/source configs
 ├── LICENSE
 ├── lua
-│   ├── config                        / configuration of installed plugins
+│   ├── config                      / configuration of installed plugins
 │   │   ├── alpha.lua
 │   │   ├── autocommands.lua
 │   │   ├── autopairs.lua
@@ -38,17 +38,22 @@ git clone https://github.com/OmarDavidF/config-neovim-lua.git ~/.config/nvim
 │   │   ├── colorizer.lua
 │   │   ├── comment.lua
 │   │   ├── gitsigns.lua
+│   │   ├── hop.lua
 │   │   ├── impatient.lua
 │   │   ├── indentline.lua
 │   │   ├── lualine.lua
+│   │   ├── notify.lua
 │   │   ├── nvim-tree.lua
+│   │   ├── pretty-fold.lua
 │   │   ├── project.lua
+│   │   ├── sniprun.lua
 │   │   ├── telescope.lua
+│   │   ├── todo-comments.lua
 │   │   ├── toggleterm.lua
 │   │   ├── treesitter.lua
 │   │   ├── web-devicons.lua
 │   │   └── whichkey.lua
-│   ├── lsp                           / language service provider settings
+│   ├── lsp                          / language service provider settings                 
 │   │   ├── handlers.lua
 │   │   ├── init.lua
 │   │   ├── lsp-installer.lua
