@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Neovim: 0.6+](https://img.shields.io/badge/Neovim-0.6+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white)](https://neovim.io/)
+[![Last Commit](https://img.shields.io/github/last-commit/OmarDavidF/config-neovim-lua?color=%4dc71f&label=Last%20Commit&logo=github&style=flat-square)](https://github.com/OmarDavidF/config-neovim-lua/pulse)
 
 This is a neovim setup made in lua. Keep in mind that some of the plugins
 have additional requirements to make them work on your computers, towards the bottom are the links where you can
