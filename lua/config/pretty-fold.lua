@@ -1,5 +1,7 @@
 local status_ok, prettyfold = pcall(require, "pretty-fold")
-if not status_ok then
+local status_ok_2, prettyfold_preview = pcall(require, "pretty-fold.preview")
+
+if not status_ok and status_ok_2 then
 	return
 end
 
@@ -49,6 +51,7 @@ prettyfold.setup({
 	},
 })
 
-require("pretty-fold.preview").setup({
+prettyfold_preview.setup({
 	key = "l", -- choose 'h' or 'l' key
+	border = "double",
 })

@@ -79,6 +79,6 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Code runner
-keymap("v", "f", "<Plug>SnipRun", opts)
+-- keymap("v", "f", "<Plug>SnipRun", opts)
 -- Pretty fold
-keymap("v", "t", "<cmd>'<,'>fold<cr>", opts)
+-- keymap("v", "t", "<cmd>'<,'>fold<cr>", opts)
