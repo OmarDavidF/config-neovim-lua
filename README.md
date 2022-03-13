@@ -12,6 +12,16 @@ obtain more information.
 2. when you open neovim packer it installs automatically. 
 3. the plugins will be installed automatically.
 
+## Try out this config
+
+Make sure to remove or move your current `nvim` directory
+
+**IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly). 
+```
+git clone https://github.com/OmarDavidF/config-neovim-lua.git ~/.config/nvim
+
+```
+
 ## 🖥️ project structure
 
 ```
