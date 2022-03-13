@@ -15,7 +15,12 @@ local colors = {
 	debian = "#d70a53",
 }
 
-require("nvim-web-devicons").setup({
+local status_ok, web_devicons = pcall(require, "nvim-web-devicons")
+if not status_ok then
+	return
+end
+
+web_devicons.setup({
 	override = {
 		html = {
 			icon = " ",
