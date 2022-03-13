@@ -111,13 +111,13 @@ you can change ```Leader key``` in [keymaps.lua](https://github.com/OmarDavidF/c
 
 ## 📸 Screenshots
 
-  ![imagen_uno](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_123619.png)
+  ![imagen_uno](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220306_214938.png)
 
-  ![imagen_dos](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_123931.png)
+  ![imagen_dos](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220306_220259.png)
 
-  ![imagen_tres](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_124121.png) 
+  ![imagen_tres](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220313_131800.png) 
 
-  ![imagen_cuatro](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220205_124337.png)
+  ![imagen_cuatro](https://raw.githubusercontent.com/OmarDavidF/config-neovim-lua/main/assets/Screenshot_20220313_123520.png)
 
 ## 🔗 Plugin Links
 
