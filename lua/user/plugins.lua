@@ -78,7 +78,6 @@ return packer.startup(function(use)
 	use("folke/which-key.nvim") -- displays a popup with possible key bindings of the command you started typing
 	use("norcalli/nvim-colorizer.lua") -- high-performance color highlighter for Neovim
 	use("rcarriga/nvim-notify") -- configurable, notification manager for NeoVim
-	use("anuvyklack/pretty-fold.nvim") -- Folded region and preview
 	use({
 		"phaazon/hop.nvim", -- allows you to jump to any part of a document
 		branch = "v1", -- optional but strongly recommended
@@ -106,8 +105,8 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-path") -- path completions
 	use("hrsh7th/cmp-cmdline") -- cmdline completions
 	use("saadparwaiz1/cmp_luasnip") -- snippet completions
+	use("hrsh7th/cmp-nvim-lsp") -- source for neovim's built-in language server client
 	use({ "tzachar/cmp-tabnine", run = "./install.sh", requires = "hrsh7th/nvim-cmp" }) -- IA completion
-	use("hrsh7th/cmp-nvim-lsp")
 
 	-- snippets
 	use("L3MON4D3/LuaSnip") --snippet engine
@@ -125,8 +124,9 @@ return packer.startup(function(use)
 	use("nvim-telescope/telescope-media-files.nvim") -- Preview images, pdf, epub, video, and fonts from Neovim using Telescope
 
 	-- Treesitter
-	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }) -- provide a simple and easy-to-use way to interface for tree care in Neovim and provide some basic functions, such as highlighting
 	use("p00f/nvim-ts-rainbow") -- Rainbow parentheses for neovim using tree-sitter
+	use("anuvyklack/pretty-fold.nvim") -- Folded region and preview
 	use("numToStr/Comment.nvim") -- Easily comment stuff
 	use("folke/todo-comments.nvim") -- comment highlighting
 

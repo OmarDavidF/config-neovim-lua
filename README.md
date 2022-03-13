@@ -15,7 +15,6 @@ obtain more information.
 ## 🖥️ project structure
 
 ```
-
 ├── init.lua                          / load/source configs
 ├── LICENSE
 ├── lua
