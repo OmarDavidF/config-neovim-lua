@@ -1,6 +1,6 @@
 # 🎁 Neovim preconfigured
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/OmarDavidF/config-neovim-lua/blob/main/LICENSE)
 [![Neovim: 0.6+](https://img.shields.io/badge/Neovim-0.6+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white)](https://neovim.io/)
 [![Last Commit](https://img.shields.io/github/last-commit/OmarDavidF/config-neovim-lua?color=%4dc71f&label=Last%20Commit&logo=github&style=flat-square)](https://github.com/OmarDavidF/config-neovim-lua/pulse)
 
