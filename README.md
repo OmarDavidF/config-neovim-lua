@@ -14,7 +14,7 @@ obtain more information.
 2. Run nvim init.lua and packer and plugins will be installed automatically.
 3. exit and re-enter for the changes to be taken and the installation of the treesitter modules will start,
 
-## Try out this config
+## Requirements
 
 Make sure to remove or move your current `nvim` directory
 
@@ -22,6 +22,7 @@ Make sure to remove or move your current `nvim` directory
 ```
 git clone https://github.com/OmarDavidF/config-neovim-lua.git ~/.config/nvim
 ```
+- [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 
 ## 🖥️ project structure
 
