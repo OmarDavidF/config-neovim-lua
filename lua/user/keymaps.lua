@@ -12,6 +12,7 @@
 --                      \______/                         \__|
 -----------------------------------------------------------------------------
 local opts = { noremap = true, silent = true }
+local opt = { silent = true }
 
 -- Shorten function name
 local keymap = vim.api.nvim_set_keymap
@@ -79,6 +80,6 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Code runner
--- keymap("v", "f", "<Plug>SnipRun", opts)
+keymap("v", "f", "<Plug>SnipRun", opt)
 -- Pretty fold
--- keymap("v", "t", "<cmd>'<,'>fold<cr>", opts)
+keymap("v", "t", ":fold<CR>", opt)
