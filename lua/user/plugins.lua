@@ -72,7 +72,7 @@ return packer.startup(function(use)
 	use("nvim-lualine/lualine.nvim") -- blazing fast and easy to configure Neovim statusline
 	use("akinsho/toggleterm.nvim") -- persist and toggle multiple terminals during an editing session
 	use("ahmedkhalf/project.nvim") -- all in one neovim plugin written in lua that provides superior project management
-	use("lukas-reineke/indent-blankline.nvim")
+	use("lukas-reineke/indent-blankline.nvim") -- adds indentation guides to all lines (including empty lines)
 	use("goolord/alpha-nvim") -- customizable home screen module
 	use("antoinemadec/FixCursorHold.nvim") -- This is needed to fix lsp doc highlight
 	use("folke/which-key.nvim") -- displays a popup with possible key bindings of the command you started typing
@@ -109,7 +109,6 @@ return packer.startup(function(use)
 	-- LSP
 	use("neovim/nvim-lspconfig") -- enable LSP
 	use("williamboman/nvim-lsp-installer") -- simple to use language server installer
-	use("tamago324/nlsp-settings.nvim") -- language server settings defined in json for
 	use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
 
 	-- Telescope
